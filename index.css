@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("basketball.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
@@ -21,8 +24,6 @@ body {
 }
 
 div.score{
-    background-color: darkblue;
-    color: aquamarine;
     padding: 10px;
     text-align: center;
     width: 90%;
@@ -42,7 +43,19 @@ button {
     border-radius: 5px;
 }
 
+.home{
+    background-color: darkblue;
+    color: yellow;
+}
+
+.away{
+    background-color: green;
+    color: white;
+}
+
 #new-game{
     width: 100%;
+    background-color: darkred;
+    color: white;
 }
     
